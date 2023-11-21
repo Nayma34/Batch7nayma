@@ -10,10 +10,13 @@ public class ArithmaticOperators {
       int c= a+b;
       int d= c;
       int e= d;
+      System.out.println("30+60 =" +e);
       int f= b-a;
+      System.out.println( "60-30 = " +f);
       int g= a*b;
-      System.out.println(g);
+      System.out.println("30*60 = " +g);
       int h= b/a;
+      System.out.println( "60/30 = " +h);
     }
 
     public static void newArithmatic (int a, int b) { // parameter

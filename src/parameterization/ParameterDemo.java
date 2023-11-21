@@ -14,10 +14,10 @@ public class ParameterDemo {
         Mike.play("Football"); // argument
 
         ParameterDemo Nancy= new ParameterDemo();
-        Nancy.play("Ludu");// argument
+        Nancy.play("Basketball");// argument
 
         ParameterDemo Mark= new ParameterDemo();
-        Mark.play(" Kutkut"); // argument
+        Mark.play(" Hockey"); // argument
 
 
 

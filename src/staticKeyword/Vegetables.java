@@ -9,14 +9,30 @@ public class Vegetables {
     String name;
     String color;
     String size;
+    char vitamin;
 
     public static void main(String[] args) {
 
-      Vegetables Tomato= new Vegetables ();
+      Vegetables tomato= new Vegetables ();
 
-      Tomato. name= "Tomato";
-      Tomato. color= "Red";
-      Tomato.size= " Small";
+      tomato. name= "Tomato";
+      tomato. color= "Red";
+      tomato.size= " Small";
+      tomato.vitamin= 'A';
+
+      Vegetables cucumber= new Vegetables();
+      cucumber. name= "Cucumber";
+      cucumber. color= "Green";
+      cucumber.size= "Large";
+      cucumber.vitamin='C';
+
+      Vegetables potato= new Vegetables();
+      potato.name= "Potato";
+      potato.color="White";
+      potato.size="Small";
+      potato.vitamin='B';
+
+
 
 
     }
